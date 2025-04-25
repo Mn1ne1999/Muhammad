@@ -33,21 +33,21 @@ public class App
 
         System.out.println("Веса равны? " + appleBox.compare(orangeBox));
 
-        // Пересыпаем яблоки
+        // Пересыпаем Apple
         System.out.println("\n Пересыпаем Apple");
         Box<Apple> anotherAppleBox = new Box<>();
         appleBox.transferFruitsTo(anotherAppleBox);
-        System.out.print("Первый ящик яблок после переноса: ");
+        System.out.print("Первый ящик Apple после переноса: ");
         appleBox.printContents();
-        System.out.print("Второй ящик яблок после переноса: ");
+        System.out.print("Второй ящик Apple после переноса: ");
         anotherAppleBox.printContents();
 
         System.out.println("\n Пересыпаем Orange");
         Box<Orange> anotherOrangeBox = new Box<>();
         orangeBox.transferFruitsTo(anotherOrangeBox);
-        System.out.print("Первый ящик яблок после переноса: ");
+        System.out.print("Первый ящик Orange после переноса: ");
         orangeBox.printContents();
-        System.out.print("Второй ящик яблок после переноса: ");
+        System.out.print("Второй ящик Orange после переноса: ");
         anotherOrangeBox.printContents();
     }
 }
