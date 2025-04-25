@@ -1,3 +1,5 @@
+package org.example;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 
@@ -7,6 +9,7 @@ public class ArrayUtils {
         array[index1] = array[index2];
         array[index2] = temp;
     }
+
     public static <T> ArrayList<T> toArrayList(T[] array) {
         return new ArrayList<>(Arrays.asList(array));
     }

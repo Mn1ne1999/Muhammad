@@ -1,9 +1,10 @@
+package org.example;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class App 
-{
-    public static void main( String[] args ) {
+public class App {
+    public static void main(String[] args) {
         // 1. Меняем местами элементы массива
         System.out.println("1. Меняем местами элементы массива ");
         String[] words = {"one", "two", "three"};
