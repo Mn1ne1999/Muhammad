@@ -63,7 +63,7 @@
 }]]></component>
   <component name="RunManager">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.App" />
+      <option name="MAIN_CLASS_NAME" value="org.example.lession3.App" />
       <module name="Lesson3" />
       <extension name="coverage">
         <pattern>
